@@ -1,7 +1,7 @@
 # Go-CaRD - A Generic, Optical Car Part Recognition and Detection System
 
 Go-CaRD is an automatic recognition and detection system of automotive parts e.g. to study interactions between human and the vehicle.
-![Image of Example](https://github.com/lstappen/GoCarD/tree/main/img/example_MuSe_CaR.png)
+![GoCarD Example](https://github.com/lstappen/GoCarD/blob/main/img/example_MuSe_CaR.png?raw=true)
 
 ## Results
 ### Recognition 
