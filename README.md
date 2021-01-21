@@ -6,11 +6,11 @@ Go-CaRD is an automatic recognition and detection system of automotive parts e.g
 ## Results
 ### Recognition 
 
-Results of **CLOSE-CaR** using the FULL head on the devel(opment) and test set reported in F1 . 
+Results of **CLOSE-CaR** using the FULL head on the devel(opment) and test set reported in F1. 
 Best model trained on [devel/test]:
-- inside and outside classes: RESNET50 [90.23/93.76]
-- outside classes: DENSENET201 [97.13/93.08] 
-- inside classes: MOBILENETV2 [87.00/93.60]
+- inside and outside classes: RESNET50 90.23 / 93.76
+- outside classes: DENSENET201 97.13 / 93.08 
+- inside classes: MOBILENETV2 87.00 / 93.60
 
 ### Detection 
 
@@ -42,8 +42,8 @@ This dataset is a subset of 74 videos from the multimodal in-the-wild dataset Mu
 
 The purpose of this dataset is to support research in the field of automatic recognition and detection of automotive parts in a natural context. It provides labels for 29 interior and exterior vehicle regions during human-vehicle interaction. It also enables benchmarking and cross-corpus transfer learning, as demonstrated in GoCarD (A Generic, Optical Car Part Recognition and Detection). The footage captures many "in-the-wild" characteristics, including a range of shot sizes, camera motion, moving objects, a wide variety of backgrounds and different interactions. 
 
-## GoCaRD evaluation code 
-The code in this repo is only exemplary and shows how images could be predicted from MuSe-CaR-Part using the model weights. It is not intended to work out-of-the-box e.g. on videos. However, the weights can be used for such an application.
+## GoCaRD evaluation and feature extraction code 
+The code in this repo is only exemplary and shows a) how images could be predicted from MuSe-CaR-Part using the model weights b) transform the prediction to a fixed sized feature set as used in [1], [2]. It is not intended to work out-of-the-box e.g. on videos. However, the weights can be used for such an application.
 
 ## Usage: For Research Purposes Only
 
@@ -51,5 +51,5 @@ Any models, derived from data contained in **MuSe-CaR** may only be used for sci
 
 
 ## References
-**[a]** L Stappen , G Rizos, B Schuller. (2020). X-AWARE: ConteXt-AWARE human-environment attention fusion for driver gaze prediction in the wild. In Proceedings of the 22nd International Conference on Multimodal Interaction (ICMI). ACM.<br>
-**[b]** L Stappen, A Baird, G Rizos, P Tzirakis, X Du, F Hafner, L Schumann, A Mallol-Ragolta, BW Schuller, I Lefter, E Cambria. (2020). MuSe 2020 challenge and workshop: Multimodal sentiment analysis, emotion-target engagement and trustworthiness detection in real-life media: Emotional car reviews in-the-wild. In Proceedings of the 1st International on Multimodal Sentiment Analysis in Real-life Media Challenge and Workshop 2020 (MuSe). ACM.
+**[1]** L Stappen , G Rizos, B Schuller. (2020). X-AWARE: ConteXt-AWARE human-environment attention fusion for driver gaze prediction in the wild. In Proceedings of the 22nd International Conference on Multimodal Interaction (ICMI). ACM.<br>
+**[2]** L Stappen, A Baird, G Rizos, P Tzirakis, X Du, F Hafner, L Schumann, A Mallol-Ragolta, BW Schuller, I Lefter, E Cambria. (2020). MuSe 2020 challenge and workshop: Multimodal sentiment analysis, emotion-target engagement and trustworthiness detection in real-life media: Emotional car reviews in-the-wild. In Proceedings of the 1st International on Multimodal Sentiment Analysis in Real-life Media Challenge and Workshop 2020 (MuSe). ACM.
