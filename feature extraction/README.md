@@ -1,0 +1,1 @@
+The provided predictions can be converted into an array of fixed size. For this purpose, we use the 10 objects with the highest confidence, and for each object we store the class (one-hot encoded), the confidence and the localisation coordinates (x, y, width, and height). In total, this results in a feature vector of 10*(no classes+7)-dimensions.
