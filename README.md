@@ -47,7 +47,7 @@ The code in this repo is only exemplary and shows a) how images could be predict
 
 ## Usage: For Research Purposes Only
 
-Any models, derived from data contained in **MuSe-CaR** may only be used for scientific, non-commercial applications. Commercial applications include, but are not limited to: Proving the efficiency of commercial systems, Testing commercial systems, Using screenshots of subjects from the database in advertisements, Selling data from the database. Please download and fill out the **EULA - End User License Agreement** before requesting the data or models. We will review your application and get in touch as soon as possible. Thank you.
+Any data, models, and weights derived from data contained in **MuSe-CaR** may only be used for scientific, non-commercial applications. The Academic Parties have the right to use these components for Academic and Research Purposes and Academic Publication is permitted. Commercial applications include, but are not limited to: Proving the efficiency of commercial systems, Testing commercial systems, Using screenshots of subjects from the database in advertisements, Selling data from the database. Please download and fill out the **EULA - End User License Agreement** before requesting the data or models. We will review your application and get in touch as soon as possible. Thank you.
 
 
 ## References
