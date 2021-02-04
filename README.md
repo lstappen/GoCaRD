@@ -5,7 +5,7 @@ Go-CaRD is an automatic recognition and detection system of automotive parts e.g
 ![in-out](https://github.com/lstappen/GoCaRD/blob/main/img/in-out.gif)
 ![cockpit](https://github.com/lstappen/GoCaRD/blob/main/img/cockpit.gif)
 ![distance-to-close](https://github.com/lstappen/GoCaRD/blob/main/img/distance-to-close.gif)
-Examples on random videos.
+Some examples on random videos. Note: Modell is not trained on consecutive frames (e.g. videos). 
 <!---[GoCarD Example](https://github.com/lstappen/GoCarD/blob/main/img/example_MuSe_CaR.png?raw=true))-->
 
 ## Results
