@@ -1,12 +1,26 @@
 # Go-CaRD - A Generic, Optical Car Part Recognition and Detection System
 
 Go-CaRD is an automatic recognition and detection system of automotive parts e.g. to study interactions between human and the vehicle. Below are some examples of random "in-the-wild" human-car videos. Note: Modell is not trained on consecutive frames (e.g. videos).<br>
-![interaction](https://github.com/lstappen/GoCaRD/blob/main/img/interaction.gif)<br>
-![in-out](https://github.com/lstappen/GoCaRD/blob/main/img/in-out.gif)<br>
-![cockpit](https://github.com/lstappen/GoCaRD/blob/main/img/cockpit.gif)<br>
-![distance-to-close](https://github.com/lstappen/GoCaRD/blob/main/img/distance-to-close.gif)<br>
+
+<p float="middle">
+  <img src="https://github.com/lstappen/GoCaRD/blob/main/img/interaction.gif" width="400">
+  <img src="https://github.com/lstappen/GoCaRD/blob/main/img/in-out.gif" width="400">
+</p>
+
+<p float="middle">
+ <img src="https://github.com/lstappen/GoCaRD/blob/main/img/cockpit.gif" width="400">
+ <img src="https://github.com/lstappen/GoCaRD/blob/main/img/distance-to-close.gif" width="400">
+</p>
+
+
+<!---
+![interaction](https://github.com/lstappen/GoCaRD/blob/main/img/interaction.gif| width=400)<br>
+![in-out](https://github.com/lstappen/GoCaRD/blob/main/img/in-out.gif| width=400)<br>
+![cockpit](https://github.com/lstappen/GoCaRD/blob/main/img/cockpit.gif| width=400)<br>
+![distance-to-close](https://github.com/lstappen/GoCaRD/blob/main/img/distance-to-close.gif| width=400)<br>
  <br>
-<!---[GoCarD Example](https://github.com/lstappen/GoCarD/blob/main/img/example_MuSe_CaR.png?raw=true))-->
+[GoCarD Example](https://github.com/lstappen/GoCarD/blob/main/img/example_MuSe_CaR.png?raw=true))
+-->
 
 ## Results
 ### Recognition 
