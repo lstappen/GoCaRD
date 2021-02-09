@@ -35,16 +35,27 @@ Best model trained on [devel/test]:
 
 Results using a dataset for training (T1) with optional data injections in % of the second training set (T2); considering three levels of IoU fit for reporting mAP in  % on the test set.
 
+
+
+**Darknet-backbone**
 | T1  | Inj.% | T2   | dev/test | > 0.2 | > 0.4 | > 0.5 |
 |-----|----------|------|----------|-------|-------|-------|
-|<td colspan=7>Darknet-backbone
-| mix | --       | --   | mix      | **58.20** | 56.66 | 54.60 |
+| mix | --       | --   | mix      | 58.20 | 56.66 | 54.60 |
+| mix | 100    | part | **mix**     | <ins>**63.01**</ins> | 61.22 | 59.10 |
 | mix | --       | --   | part     | 17.39 | 15.89 | 14.46 |
-| mix | 100    | part | part     | 41.07 | 38.60 | 35.56 |
-|<td colspan=7>TinyDarknet-backbone   |
+| mix | 100    | part | **part**     | <ins>**41.07**</ins> | 38.60 | 35.56 |
+
+**TinyDarknet-backbone**  
+
+| T1  | Inj.% | T2   | dev/test | > 0.2 | > 0.4 | > 0.5 |
+|-----|----------|------|----------|-------|-------|-------|
 | mix | --       | --   | mix      | 40.89 | 26.43 | 24.41 |
 | mix | 100    | part | part     | 28.24 | 14.44 | 12.51 |
-|<td colspan=7>SqueezeNet-backbone   |
+
+**SqueezeNet-backbone**   
+
+| T1  | Inj.% | T2   | dev/test | > 0.2 | > 0.4 | > 0.5 |
+|-----|----------|------|----------|-------|-------|-------|
 | mix | --       | --   | mix      | 46.03 | 44.14 | 42.29 |
 | mix | 100    | part | part     | 22.99 | 21.00 | 19.07 |
 
