@@ -24,7 +24,7 @@ Go-CaRD is an automatic recognition and detection system of automotive parts e.g
 
 ## Citation
 
-If you use this models, please cite the following paper:
+If you use these models, please cite the following paper:
 
 ```bibtex
 @misc{stappen2020gocard,
