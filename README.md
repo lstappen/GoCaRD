@@ -27,12 +27,13 @@ Go-CaRD is an automatic recognition and detection system of automotive parts e.g
 If you use these models, please cite the following paper:
 
 ```bibtex
-@misc{stappen2020gocard,
-      title={Go-CaRD -- Generic, Optical Car Part Recognition and Detection: Collection, Insights, and Applications}, 
+@misc{stappen2021domain,
+      title={Domain Adaptation with Joint Learning for Generic, Optical Car Part Recognition and Detection Systems (Go-CaRD)}, 
       author={Lukas Stappen and Xinchen Du and Vincent Karas and Stefan Müller and Björn W. Schuller},
-      year={2020},
+      year={2021},
       eprint={2006.08521},
       archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
